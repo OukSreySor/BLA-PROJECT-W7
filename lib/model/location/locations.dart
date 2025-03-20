@@ -40,3 +40,13 @@ class Location {
     return name;
   }
 }
+
+// void main() {
+//   Location loc1 = Location(name: 'pp', country: Country.cambodia);
+//   Location loc2 = Location(name: 'pp', country: Country.cambodia);
+//   print (loc1 == loc2);
+
+//   List<Location> locs = [loc1, loc2];
+//   bool hasLoc = locs.contains(Location(country: Country.france, name: 'paris'));
+//   print(hasLoc);
+// }
