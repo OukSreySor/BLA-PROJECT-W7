@@ -30,6 +30,9 @@ class RidePrefScreen extends StatelessWidget {
     await Navigator.of(context)
         .push(AnimationUtils.createBottomToTopRoute(RidesScreen()));
 
+    // 3 - After wait  - Update the state   -- TODO MAKE IT WITH STATE MANAGEMENT
+    ridePrefProvider.addPastPreference(newPreference);
+
   }
 
   @override

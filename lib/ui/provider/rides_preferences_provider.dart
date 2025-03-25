@@ -22,8 +22,8 @@ class RidesPreferencesProvider extends ChangeNotifier {
     }
   }
 
-  void addPreference(RidePreference preference) async {
-    await repository.addPreference(preference);
+  void addPastPreference(RidePreference preference) async {
+    await repository.addPastPreference(preference);
     _fetchPastPreferences();
     notifyListeners();
   }
